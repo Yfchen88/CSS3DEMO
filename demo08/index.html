@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画五角星</title>
+	<style>
+		.star{
+			width: 0px;
+			height: 0px;
+			border-bottom: 70px solid red;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			margin:100px auto;
+			transform: rotate(35deg);
+			position: relative;
+		}
+		.star:before{
+			content: '';
+			width: 0px;
+			height: 0px;
+			border-bottom: 80px solid red;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			position: absolute;
+			transform: rotate(-35deg);
+			top: -45px;
+			left: -65px;
+		}
+		.star:after{
+			content: '';
+			border-bottom: 70px solid red;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			position: absolute;
+			transform: rotate(-70deg);
+			top: 3px;
+			left: -105px;
+		}
+		.liujiao{
+			width: 0px;
+			height: 0px;
+			border-bottom: 100px solid red;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			margin:50px auto;
+			position: relative;
+		}
+		.liujiao:after{
+			content: '';
+			width: 0px;
+			height: 0px;
+			border-top: 100px solid red;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			position: absolute;
+			top: 30px;
+			left: -50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="star">
+		
+	</div>
+	<br><hr>
+	<div class="liujiao">
+		
+	</div>
+</body>
+</html>

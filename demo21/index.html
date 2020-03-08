@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿天猫类别效果</title>
+	<style>
+		.main{
+			margin: 100px auto;
+			width: 500px;
+			height:500px;
+			border: 1px solid #ccc;
+			font-family:"Microsoft YaHei";
+			cursor:pointer;
+			}
+		.m_title{
+			text-align:left;
+			font-weight:bold;
+			font-size20px;
+			padding:20px 10px 10px 10px;
+		}
+		.m_content{
+		
+			color:#11ccaa;
+			padding:0px 10px 10px 10px;
+		}
+		.m_img{
+			text-align:right;
+			position:relative;
+		}
+		.m_img img {
+			position:absolute;
+			width:400px;
+			top:0px;
+			right:0px;
+			transition:right .3s;
+		}
+		.main:hover img{
+			right:15px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="m_title">好车特卖一口价</div>
+		<div class="m_content">新年新车开回家</div>
+		<div class="m_img">
+			<img src="./02.jpg" alt="">
+		</div>	
+	</div>
+</body>
+</html>

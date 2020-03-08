@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>透明</title>
+	<style>
+		.bg{
+			margin:100px auto;
+			width: 400px;
+			height: 400px;
+			background-image: url(./02.jpg);
+			position: relative;
+		}
+		.content{
+			position: absolute;
+			width: 300px;
+			height: 200px;
+			background-color: #fff;
+			opacity: 0.8;
+			top: 40px;
+			left: 45px;
+			border-radius: 10px;
+			padding: 10px;
+			text-align: center;
+			/* x轴的阴影 y轴的阴影 阴影的宽度 阴影的颜色 */
+			box-shadow: 3px 3px 5px #888;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="content">
+			hello hahahahhahahahah<br/>
+			hello hahahahhahahahah<br/>
+			hello hahahahhahahahah<br/>
+			hello hahahahhahahahah<br/>
+			hello hahahahhahahahah<br/>
+		</div>
+	</div>
+</body>
+</html>

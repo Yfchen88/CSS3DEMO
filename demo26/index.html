@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字体排版问题</title>
+	<style>
+		.demo{
+			margin: 30px auto;
+			width: 100px;
+			padding: 10px;
+			border:1px solid #ccc;
+			height: 50px;
+			/*用的很少 和overflow：hidden一样*/
+			text-overflow: clip;
+			overflow: hidden;
+		}
+		.demo1{
+			margin: 0px auto;
+			width: 100px;
+			padding: 10px;
+			border:1px solid #ccc;
+			text-overflow: ellipsis;
+			/*溢出隐藏*/
+			overflow: hidden;
+			/*强制不换行*/
+			white-space: nowrap;
+		}
+	</style>
+</head>
+<body>
+	<div class="demo">
+		发的的脸孔积分老大房颠覆了大幅噶的境况林工发
+		当建档立卡
+		嘎达就高达
+		嘎达gda嘎达嘎达gad按规定
+		嘎达高大上gadget
+		gadget啊
+		gadget嘎达个
+	</div>
+	<div class="demo1">
+		发的的脸孔积分老大房颠覆了大幅噶的境况林工发
+		当建档立卡
+		嘎达就高达
+		嘎达gda嘎达嘎达gad按规定
+		嘎达高大上gadget
+		gadget啊
+		gadget嘎达个
+	</div>
+</body>
+</html>

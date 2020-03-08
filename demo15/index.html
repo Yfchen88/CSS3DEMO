@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>线性渐变</title>
+	<style>
+		.ceng{
+			width: 260px;
+			height: 200px;
+			border:1px solid black;
+			/* 最简单的一种渐变两个参数默认从上到下渐变 */
+			background-image: linear-gradient(orange,green);
+		}
+		.ceng1{
+			width: 260px;
+			height: 200px;
+			border:1px solid black;
+			background-image: linear-gradient(to left,orange,green);
+		}
+		.ceng2{
+			width: 260px;
+			height: 200px;
+			border:1px solid black;
+			/* 表示从50%开始渐变，之前的不渐变 */
+			background-image: linear-gradient(to left,orange 50%,green 100%);
+		}
+			.ceng3{
+			width: 260px;
+			height: 200px;
+			border:1px solid black;
+			/* 表示从50%开始渐变，之前的不渐变 */
+			background-image: linear-gradient(to left,orange 100px,green 160px,red 260px);
+		}
+	</style>
+</head>
+<body>
+	<div class="ceng">
+	
+	</div>
+	<br><hr>
+	<div class="ceng1">
+		
+	</div>
+	<br><hr>
+	<div class="ceng2">
+		
+	</div>
+	<br><hr>
+	<div class="ceng3">
+		
+	</div>
+</body>
+</html>

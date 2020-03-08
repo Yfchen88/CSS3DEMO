@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.ceng{
+			width: 100px;
+			height: 100px;
+			background-color: pink;
+			cursor: pointer;
+			/* transition简写 */
+			/* 默认是all */
+			transition-property: all;
+			transition-duration: 2s;
+			/* 延迟效果 默认是0s 没有任何延迟 */
+			transition-delay: 0.2s;
+			/*过度函数 默认值ease 开始结尾慢中间快
+				linear 匀速
+				ease-in 开始慢 慢慢变快
+				ease-out 开始快 结束越来越慢
+			 */
+			transition-timing-function: ease-out;
+		}
+		.ceng:hover{
+			width: 300px;
+			background-color: red;
+			border-radius: 40px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="ceng">
+		
+	</div>
+</body>
+</html>

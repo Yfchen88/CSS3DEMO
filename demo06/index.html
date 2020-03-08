@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画三角形</title>
+	<style>
+		.sanjiao{
+			border-top:50px solid #ccc;
+			border-left:50px solid #f00;
+			border-bottom:50px solid #0f0;
+			border-right:50px solid #00f;
+			width: 0px;
+			height: 0px;
+			margin: 50px auto;
+		}
+		/* transparent 透明 */
+		.sanjiao1{
+			border-top:50px solid transparent;
+			border-left:50px solid #f00;
+			border-bottom:50px solid transparent;
+			border-right:0px solid #00f;
+			width: 0px;
+			height: 0px;
+			margin: 50px auto;
+		}
+		.duihua{
+			margin: 50px auto;
+			background-color: #6A6;
+			width: 300px;
+			height: 25px;
+			line-height: 25px;
+			padding: 10px;
+			border-radius: 6px;
+			color: #fff;
+			position: relative;
+		}
+		.duihua:before{
+			content: '';
+			border-left: 0px solid #6A6;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-right: 10px solid #6A6;
+			position: absolute;
+			left:-10px;
+			top:14px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="sanjiao">
+		
+	</div>
+	<br><hr>
+	<div class="sanjiao1">
+		
+	</div>
+	<br><hr>
+	<div class="duihua">
+		Hello everyone !!!
+	</div>
+</body>
+</html>

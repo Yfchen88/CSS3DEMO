@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>阴影效果扔在桌子上的图片</title>
+	<style>
+		body{
+			background-color: #e9e9e9;
+		}
+		.main{
+			margin-top: 100px;
+			margin-left: 200px;
+		}
+		.ceng{
+			width: 294px;
+			padding: 10px 10px 20px 10px;
+			border:1px solid #BFBFBF;
+			background-color: #FFF;
+			box-shadow: 5px 2px 3px #aaa;
+		}
+		.ceng img{
+			width: 250px;
+			height: 250px;
+		}
+		.rouleft{
+			float: left;
+			transform: rotate(7deg);
+		}
+		.rouright{
+			float: left;
+			transform: rotate(-8deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="ceng rouleft">
+			<img src="./02.jpg" alt="">
+			<p>这是一个照片</p>
+		</div>
+		<div class="ceng rouright">
+			<img src="./02.jpg" alt="">
+			<p>这是另一个照片</p>
+		</div>
+	</div>
+</body>
+</html>

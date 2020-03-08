@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transform画菱形和平行四边形</title>
+	<style>
+		.lingxing{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			margin: 50px auto;
+			/* 顺时针旋转45度 */
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.pxsbx{
+			width: 200px;
+			height: 100px;
+			background-color: pink;
+			margin: 50px auto;
+			/* 两个属性一个表示x轴的倾斜 后面一个表示y轴的倾斜 */
+			-webkit-transform: skew(40deg,0deg);
+			-ms-transform: skew(40deg,0deg);
+			-o-transform: skew(40deg,0deg);
+			transform: skew(40deg,0deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="lingxing">
+		
+	</div>
+	<br><hr>
+	<div class="pxsbx">
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关键帧</title>
+	<style>
+		.ceng{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: fixed;
+			/*第一个属性animation-name:xxx 执行动画名字（可以是一个class）
+			  第二个属性animation-duration:1s; 执行的时间
+			  第三个属性animation-timing-function:ease 两边慢中间快，还有匀速等等选择;动画效果
+			  第四个属性animation-delay:0; 延迟多少秒后执行。默认立即执行就是0s
+			  第五个属性animation-itearation-count:3;这个动画循环几次。infinite表示无限循环
+			  第六个属性animation-direction:normal（默认，正常播放）;或者是alternate(反方向播放动画)
+			*/
+			animation: xxx 5s 2;
+		}
+		/*定义关键帧*/
+		/*@keyframes xxx{
+			from {top:0; left: 20%}
+			to{top: 0;left: 80%};
+		}*/
+		@keyframes xxx{
+			0% {top:0; left: 20%;background-color: red}
+			25% {top: 0;left: 80%;background-color: yellow}
+			50% {top: 80%;left: 80%;background-color: black}
+			75% {top:80%;left: 20%;background-color: green}
+			100% {top: 0%;left: 20%;background-color: pink}
+		}
+	</style>
+</head>
+<body>
+	<div class="ceng">
+		
+	</div>
+</body>
+</html>

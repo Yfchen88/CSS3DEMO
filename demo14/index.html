@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿天猫产品样式效果</title>
+	<style>
+		body{
+			background-color: #ddd;
+		}
+		.main{
+			margin: 100px auto;
+			width: 800px;
+			clear: both;
+		}
+		.main li{
+			background-color: #fff;
+			list-style: none;
+			width: 240px;
+			padding: 1px;
+			border:1px solid rgba(255,0,0,0);
+			cursor: pointer;
+			float: left;
+			margin: 3px;
+		}
+		.main li:hover{
+			border:1px solid red;
+		}
+		.main li:hover .img img{
+			opacity: 0.6
+		}
+		.img img{
+			width: 240px;
+			transition: all 1s
+		}
+		.goodtitle{
+			margin: 10px;
+			color: #666;
+			height: 43px;
+			overflow: hidden;
+		}
+		.price{
+			margin: 10px;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<ul>
+			<li>
+				<div class="img">
+					<img src="./02.jpg" alt="111">
+				</div>
+				<div class="goodtitle">
+					的进口量撒酒疯抵抗力激发了解了解
+				</div>
+				<div class="price">
+					￥9999
+				</div>
+			</li>
+
+			<li>
+				<div class="img">
+					<img src="./02.jpg" alt="111">
+				</div>
+				<div class="goodtitle">
+					的进口量撒酒疯抵抗力激发了解了解
+				</div>
+				<div class="price">
+					￥9999
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
